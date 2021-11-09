@@ -24,5 +24,6 @@ func main() {
 	err := http.ListenAndServe(":9000", nil)
 	if err != nil {
 		fmt.Println("HTTP server start failed, err:%v", err)
+		fmt.Println("HTTP server start failed, err:%v", err)
 	}
 }
