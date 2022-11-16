@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Println("测试")
 	height := []int{4, 3, 2, 1, 4}
 	maxArea(height)
 }
